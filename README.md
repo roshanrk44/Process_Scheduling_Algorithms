@@ -9,6 +9,7 @@ Line 2: a comma-separated list telling which CPU scheduling policies to be analy
 6. FB-1, (Feedback where all queues have q=1)
 7. FB-2i, (Feedback where q= 2i)
 8. Aging
+   
 Line 3: An integer specifying the last instant to be used in your simulation and to be shown on the timeline.
 
 Line 4: An integer specifying the number of processes to be simulated.
