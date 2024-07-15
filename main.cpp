@@ -18,7 +18,6 @@ bool sortByArrivalTime(const tuple<string, int, int> &a, const tuple<string, int
 {
     return (get<1>(a) < get<1>(b));
 }
-
 bool descendingly_by_response_ratio(tuple<string, double, int> a, tuple<string, double, int> b)
 {
     return get<1>(a) > get<1>(b);
